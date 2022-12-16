@@ -1856,7 +1856,7 @@ figure.highlight pre .javascript .function {
 .article-sort {
   margin-left: 10px;
   padding-left: 20px;
-  border-left: 2px solid #aadafa;
+  border-left: 2px solid #c5c5c5;
 }
 .article-sort-title {
   position: relative;
@@ -1875,7 +1875,7 @@ figure.highlight pre .javascript .function {
   z-index: 1;
   width: 10px;
   height: 10px;
-  border: 5px solid #49b1f5;
+  border: 5px solid #5e616d;
   border-radius: 10px;
   background: var(--card-bg);
   content: '';
@@ -1893,7 +1893,7 @@ figure.highlight pre .javascript .function {
   z-index: 0;
   width: 2px;
   height: 1.5em;
-  background: #aadafa;
+  background: #c5c5c5;
   content: '';
 }
 .article-sort-item {
@@ -1925,7 +1925,7 @@ figure.highlight pre .javascript .function {
   left: calc(-20px - 17px);
   width: 6px;
   height: 6px;
-  border: 3px solid #49b1f5;
+  border: 3px solid #5e616d;
   border-radius: 6px;
   background: var(--card-bg);
   content: '';
@@ -1945,10 +1945,10 @@ figure.highlight pre .javascript .function {
   font-size: 1.43em;
 }
 .article-sort-item.year:hover:before {
-  border-color: #49b1f5;
+  border-color: var(--pseudo-hover);
 }
 .article-sort-item.year:before {
-  border-color: var(--pseudo-hover);
+  border-color: #5e616d;
 }
 .article-sort-item-time {
   color: #858585;
